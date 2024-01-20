@@ -122,3 +122,8 @@ function printCV()
 {
     window.print();
 }
+function randomColor() {
+    const colors = ['#F1C40F', '#2E4053', '#3498DB', '#9B59B6', '#E74C3C'];
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    return colors[randomIndex];
+}
